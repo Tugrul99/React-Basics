@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from './Card.js';
+import Student from './Student.js'
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexDirection: 'row', width: '100%' }}>
+      <div style={{ flex: '0 0 30%' }}>
+        <h1>REACT CARD EXERCISES</h1>
+        <Card />
+      </div>
+      <div style={{ flex: '0 0 30%' }}>
+        <h2>PROPS EXERCISES</h2>
+        <Student name={'Toghrul'} age={24} isStudent={true} />
+        <Student />
+        <Student />
+        <Student />
+      </div>
+      <div style={{ flex: '0 0 30%' }}>
+      
+      </div>
     </div>
   );
 }
+
+
+
+
 
 export default App;
