@@ -34,3 +34,27 @@ background-image: linear-gradient(315deg, #757e81 0%, #343434 74%);
   border: 2px solid rgb(51, 7, 7);
 
 }
+
+/* LIST */
+.list-item{
+  list-style: none;
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-bottom: 9px;
+  
+
+}
+.list-category{
+  text-align: center;
+  background-color: blue;
+}
+.list-card{
+  text-align: justify;
+  border: 1px rgb(136, 14, 14) solid;
+
+
+  
+}
+li{
+  margin-bottom: 12px;
+}
